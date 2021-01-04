@@ -1,0 +1,19 @@
+
+
+1. level complete screen - window size is 600x410
+    Share button size - 200x50
+     "Level complete" text, the dimension for perfect fit is 243x238, text size is around 30 points
+ 
+2. Retry window - window size is 500x300
+     Retry button size is - 140x50
+     Failed Level Text - height is 310, please follow correct aspect ratio
+	             text size is around 40pt
+
+3. for No life window - window size is 600 x 500.
+      buttons are
+                Invite Friends - 300x500
+                Purchase Life - 300x500
+                Do Nothing - 300x500
+
+the close button should be same size for all
+my suggested size is 41x39

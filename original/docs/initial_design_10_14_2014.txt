@@ -1,0 +1,92 @@
+
+game states
+shuffle
+
+gamestate_Single, if single player and double player, it must have a generic board handling
+{
+	levels
+	uimanager_local
+	Board main board;
+	g_globalData.level[10];
+
+	LoadGame()
+	{
+		board.createBoard(level[currentIdx].getCurrentChallenge());
+	}
+
+	
+	Update()
+	{
+		board.Update(elapsed);
+	}
+
+	Draw()
+	{
+		board.Draw();
+	}
+
+	Event()
+	{
+		board.Event();					
+	}
+}
+
+
+class card{
+	face = 0:back, 1:facing
+	animationDoneFn{}
+	type;
+
+	Flip();
+	ZoomIn();
+
+                   state
+}
+
+card_state:
+    out --> means not visible
+    normal
+    animation In
+     Flipping
+     Max_in --> for mouse hover
+     Max_out --> for mouse out
+
+
+class ChallengeInfo --> Logic class
+{
+           id = 0;
+           types[3][3] --> the actual content per challenge	          
+           goalArrayType
+           goalArrayFlag
+           goodIconCount
+}
+
+levelbase
+{
+	Challenge[10]
+	currentChallengeIndex	
+
+	getCurrentChallenge();
+}
+
+we can eliminate Level handling.
+level is just a structure that holds challenge data
+
+class Board
+{
+	CreateBoard(challengeInfo)
+	{
+		create board as buttons
+	}
+	
+	boardOpen(index);
+	...
+	...
+
+	boardHandleEvent(e)
+	{
+		//...
+	}
+}
+
+pwedi ra walay board oi! the board wwill be declared in game state

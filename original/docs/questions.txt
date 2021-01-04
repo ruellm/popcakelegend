@@ -1,0 +1,40 @@
+(answered)1. how does nuetral work? when you click it does not merit or deduct to life or turn?
+does that mean you can click it without consequence?
+-- works similar to other card.
+
+(answered)2. it says, random board stays the same the whole challenges in one level, does it mean, at first run, you have to randomize, and you have the same arrangements for all 10 challenge in the level?
+-- yes for all
+
+(answered)3. i did not find in documents, the definitions of terms and what it does or look like, example what is a 'Good icon'.
+an icon opened at the start of each challenge
+
+
+(answered)4. there is too much specification/todo in just one week development, can we move the date?
+i was surprised that you already set the date in odesk even before seeing the actual work and the current status of the project (which is not much status of the game as I see it)
+---- i can do the 10 levels in oct 24, but not sure on other features like facebook, and other data handling, only the gameplay for 10 levels i can do.
+-- Rehan: game play pnly is OK
+
+(answered)5. hits refers to number of clicks? so the only allowed hit is 60 for the entire level and is accumulated in all challenges=
+
+(answered)6.  in PDF file "Popcakes Basic Design.ppt", slide 8. it says 1 life should be deisnged as "candle" what does that mean? i dont see candle design in both the PPT and excel file.
+-- there will be a candle animation.
+
+
+(answered)8. what is "Remaining Icons to be discovered" row and "NB of good icon"
+-- see skype chat
+
+9. These are things that needs art integration:
+I.E Concept art:
+there are things like 
+1. Congratulatory message specially on Level end messages (section 1.13)
+2. Level progress bar (section 1.9)
+3. Sharing friends buttons
+4. leaderboards ang generals screen
+5. stars and trophies
+
+Those things needs arts, please make sure that the graphics artists are aware of those arts.
+
+
+
+
+

@@ -1,0 +1,27 @@
+
+Popcake Legend release PopcakeLegende_05-31-2015  (pre-milestone 4 release, v0.0.371)
+
+-Hosted Redmine
+437692	Level access condition message on level failed
+437697	Invite friend message pop-up
+437702	Gold color on trophy
+438665	Level 10 crash
+438639	DUO result pop-up
+438647	level 3 switching speed
+438648	Text missing in standard statistics pop-up
+438651	Warning message on board rotate
+438657	Graph resize issue
+438662	replace cake color
+439331	Add company image
+439333	crash on statistics screen
+439336	Align window
+439338	purchase extra hits
+439339	Elephant moving
+439340	3 icons switch not working
+439356	stars and trophies graph
+439371	Freeze icon issue
+438656	Level 6 timer
+
+-Congrats screen, 
+-image corrections provided from May 26 onwards
+-walldorf logo

@@ -1,0 +1,5 @@
+=== popcakelegend Config Vars
+CLEARDB_DATABASE_URL: mysql://b081b5259931d1:2818181b@us-cdbr-iron-east-01.cleardb.net/heroku_c0388709ac2c57e?reconnect=true
+
+=== professor-brain-memory Config Vars
+CLEARDB_DATABASE_URL: mysql://b227b6a560b59c:d6a05576@us-cdbr-iron-east-02.cleardb.net/heroku_1b7688e1f88998a?reconnect=true

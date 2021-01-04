@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'CurlzMTRegular';
+    src: url('curlz___0.eot');
+    src: url('curlz___0.eot') format('embedded-opentype'),
+         url('curlz___0.woff2') format('woff2'),
+         url('curlz___0.woff') format('woff'),
+         url('curlz___0.ttf') format('truetype'),
+         url('curlz___0.svg#CurlzMTRegular') format('svg');
+}

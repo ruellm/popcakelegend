@@ -1,0 +1,42 @@
+user 
+ -- D = 5
+ -- dclaimflag = false;
+
+
+login module
+{
+	Dclaim = read from DB
+	D = read from DB
+
+	D = read from DB
+	currentdate = getdate();
+	datediff = currentdate - Dclaim;
+	if(datediff == 1)
+	{
+		D += 5;
+		update dclaim in DB if claimflag is true
+
+		if( D > 30 )
+			D = 5;
+		update D in database
+	}else if(datediff != 0)
+	{
+		D = 5;
+		Update D in Database
+		update dclaimflag if claimflag is true
+	}
+
+}
+
+gamestate
+{
+	if(new bestscore) //--> when 
+	{
+		if( Dclaim == false) {
+			pop-up?? when to show??
+			update dclaim to true in database
+		}	
+	}
+}
+
+

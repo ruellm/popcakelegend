@@ -1,0 +1,78 @@
+user table
+
+id (BIGINT)
+fbid (BIGINT)
+coins(INT)
+epoch (BIGINT)
+last_login(TEXT)
+total_score(BIGINT) --> Can be removed, i think
+life(INT) --> DEFAULT 5
+name(TEXT)
+max_level(INT)
+
+-------
+level
+id --> record id
+fbid (BIGINT) --> secondary key
+level_id --> should be another key
+time_complete
+lives_remain 
+stars  --> coollected
+saved --> true/false--> false by default
+score (BIGINT) -> score for level
+hits --> number of hits remain
+errors (INT)
+extra (INT)
+-------
+monetize
+
+id(INT)
+fbid(BIGINT)
+type(INT)-->shuffle, watch3, etc.
+level_id(INT)
+count(INT)
+
+------------
+gifts
+
+from(BIGINT)
+to(BIGINT)
+claim_flag(INT)
+type(INT)
+
+-----------------
+
+level_settings
+
+level_id (INT)-> level index --> must be key
+hits (INT) --> Default 60
+points_per_hits (INT) --> default 15
+points_per_time (INT) --> default 15
+seconds (INT) --> default 15
+clock_limit (INT)--> default -1
+points_per_challenge(INT) --> default 10
+minimum_trophy (INT) --> Default 0
+hidden (INT) --> default 0
+
+-----------------
+
+price_settings
+
+ALL is INT
+
+id
+type    monetization price and amount
+price	price is in coins
+count	1: default
+currency 0: default, coins
+
+-----------------
+General settings
+
+id(int)
+name(text)
+value(int)
+
+:: General Settings Data "names"
+Lives
+Coins

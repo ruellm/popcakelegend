@@ -1,0 +1,30 @@
+
+Popcake Legend release PopcakeLegende_04-26-2015 (pre-milestone 4 release, v0.0.294)
+
+1.Hosted Redmine reports done:
+422077
+422738
+422725 
+422710 - please read the comments i put on hostedredmine and give me feedback
+422672 
+422081  - I cannot replicate this on my machine, I already sent you an email and updated the hostedredmine account, please answer this also.
+
+2. animation on timer during Gift use
+3. animation on score 
+4. integrate sounds
+5. loading screen
+
+6. Welcome Screen basic theme.
+Note the Trees(trees1, trees2, trees3) and Baker were not animated, the animation provided is really bad and choppy because the Frames in the sprites are not AlignedNED.
+Please send me image with the trees included in background-green-garden.png (also in level screen map).
+
+7. Basic theme has been integrated describes in Playing-Screen-layout.jpg except for top panel
+   - timer bar
+   - gumball machine
+   - updated duo images
+   - No bakery store, Send me ALL related arts please.
+
+8. level screen has not been integrated, needs the layer. please include the trees, we will not animate it anymore.
+Please See Lacking excel document included in this email for details.
+
+See attached: Lacking document for lacking arts

@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+     <head>
+        <title> Admin </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+		<script>
+			function DoSave()
+			{
+				console.log("-----------------------------------------");
+				//gets table
+				var oTable = document.getElementById('datatable');
+
+				//gets rows of table
+				var rowLength = oTable.rows.length;
+
+				//loops through rows    
+				for (i = 1; i < rowLength-1; i++){
+
+				  //gets cells of current row  
+				   var oCells = oTable.rows.item(i).cells;
+
+				   //gets amount of cells of current row
+				   var cellLength = oCells.length;
+
+				   //loops through each cell in current row
+				   for(var j = 0; j < cellLength-1; j++){
+
+						  // get your cell info here
+
+						  var cellVal = oCells.item(j).innerHTML;
+						  console.log(cellVal);
+					   }
+				}
+			}
+			</script>
+		</head>
+
+		<body>
+				
+			<table id="datatable" class="display" cellspacing="0" width="100%">
+			<thead>
+				<tr>
+					<th>FBID</th>
+					<th>Name</th>
+					<th>Email</th>
+					<th>Max Level</th>
+					<th>Gold</th>
+					<th>Life</th>
+					<th>Coins</th>
+					<th>Total Score</th>
+					<th>Last Login</th>
+					<th> Transaction </th>
+				</tr>
+			</thead>
+					
+			<tbody>
+				<tr>
+					<td contenteditable="true">0</td>
+					<td>Ruell</td>
+					<td>ruellm@yahoo.com</td>
+					<td>1</td>
+					<td>0</td>
+					<td>0</td>
+					<td>0</td>
+					<td>100</td>
+					<td>1/1/2014</td>
+					<td> haha </td>
+				</tr>	
+				<tr>
+					<td><button type="button" onClick="DoSave()">Save</button></td>
+				</tr>
+			</tbody>
+		</table>
+
+		</p>
+	</body>
+</html>

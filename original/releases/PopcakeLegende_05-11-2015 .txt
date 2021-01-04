@@ -1,0 +1,51 @@
+
+Popcake Legend release PopcakeLegende_05-11-2015  (pre-milestone 4 release, v0.0.313)
+
+1.Hosted Redmine reports done:
+Please check redmine with comments!
+
+422768
+422746 - Important! Please read comments in hostedredmine.
+425165 - Please read comments in hostedredmine
+426605
+428063
+428058
+428056
+428049 - Please read comments in hostedredmine
+428023
+431416 - Please read comments in hostedredmine
+431507
+431496
+431419 - Please Read comment in hostedredmine
+431417
+422725
+422077
+------
+Not fix:
+422081 - Cannot Replicate on my machine. Please read comments in hostedredmine
+
+2. Please refer to Updated Document (May 11, 2015) for things that are done and included in this release.
+a little summary of release:
+
+		statistics screen
+		new level compleplete, objective and fail screen
+		SPV Preview
+		Board is moving icon
+		Baker blink animation in general level screen SPV
+		deduct life per level-completed-heading.png
+		general level screen animation on SPV
+		change font of level handle in general level screen
+		elphant icon in DUO SwitchBack
+		Replaced YES/NO buttons on monetization buttons
+		Reinsertion of purchase extrahits and extra time
+		Address DUO issues from Milestone4 document (Page 4 and 5)
+		Recreate Level Every game/challenge (Page 6 under "Bug")
+		Added profile picture box
+		Recent-images.zip provided during May 9, 2015
+		characters on level complete, fail and objective
+		updated icons
+		animated buttons on baker screen (SPV)
+		aniamted character on SPV
+		Monetization Tracking for unlock --> described in page1 of milestone document 'Monetization ID, data tracking issue'
+		Corrected admin page to display Monetization ID, along with Database ID to avoid confusion.
+		

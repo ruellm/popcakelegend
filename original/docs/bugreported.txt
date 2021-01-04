@@ -1,0 +1,13 @@
+1. timer not working (for user to memorize icons) you mentioned that you have forgotten to do this?
+
+2. no need to display total score and lives on screen (extra feature but client doesn’t want it to appear on this screen)
+
+3. the score should not increase if user clicks on other neutral icons (except for the first correct neutral icon). Other neutral icons are considered to be seperate icons. pls refer to 10 levels prototype scoring system section diagram
+
+4. neutral icon should flip back as other wrong icons do when clicked 
+                                                          
+5. time duration is wrong  (20 secs to memorize should be replaced by 15 secs)  refer level 1 doc
+
+6. Watch 3 seconds icon should be highlighted in challenge 3/10 (mentioned in level 1 ppt file)
+
+7. 'time remain' should't be displayed in pop window when level is completed

@@ -1,0 +1,36 @@
+CHOCOLATE COINS DAILY CONTEST
+
+
+This is originally referred in the excel 10 levels spreadsheet, section 1.12. line 472 onwards.
+
+The purpose is (i) to maximize player retention by incentivizing to come back every day and (ii) reward the player for his effort to log in everyday. For information, you may read the Free-to-play design guide (circulated month ago, 54 tricks) on section 30 “Better Every Day” to understand the rationale behind this.
+
+It works as following:
+
+1) Each day a player logs in, he can win X chocolate coins if player establishes a new personal BEST SCORE on any level
+
+2) The number X of chocolate coins depends on the number of successive days where the player logs in, as follows:
+
+a) the player starts the game on day D. The first time ever he establishes a new best score on any level (even the first time he plays), he wins 5 chocolate coins. A message appears in an ardoise “Congratulations, this is a new best score. You win 5 chocolate coins. And tomorrow it will be 10!”, and the 5 coins are visibly credited to the player. Can only win 1 time per day.
+
+b) On day D+1, if a new best score is achieved on any level, then he wins 10 chocolate coins. A message appears in an ardoise “Congratulations, this is a new best score. You win 10 chocolate coins. And tomorrow it will be 15!”, and the 10 coins are visibly credited to the player. Can only win 1 time per day.
+
+c) On day D+2, if a new best score is achieved on any level, then he wins 15 chocolate coins. A message appears in an ardoise “Congratulations, this is a new best score. You win 15 chocolate coins. And tomorrow it will be 20!”, and the 15 coins are visibly credited to the player. Can only win 1 time per day.
+
+d) On day D+3, if a new best score is achieved on any level, then he wins 20 chocolate coins. A message appears in an ardoise “Congratulations, this is a new best score. You win 20 chocolate coins. And tomorrow it will be 25!”, and the 20 coins are visibly credited to the player. Can only win 1 time per day.
+
+e) On day D+4, if a new best score is achieved on any level, then he wins 25 chocolate coins. A message appears in an ardoise “Congratulations, this is a new best score. You win 25 chocolate coins. And tomorrow it will be 25!”, and the 20 coins are visibly credited to the player. Can only win 1 time per day.
+
+3) If the player does not log in a specific day, then the system restarts at day D
+
+4) At D+5, the system restarts at day D
+
+As such the maximum number of coins a player can win in 5 consecutive days is 5+10+15+20+25 = 75 chocolate coins.
+
+
+
+IF the player beats the highest bunos TWICE that day,
+let say, if the player beats best score for level 1 and beats another score for level 2 in Day 2, then he gets 20 coins total?
+What will happen if the player played long that day and he will get so many coins?
+> player will be credited with coins only once a day no matter if he continues to beat score in further levels as well
+

@@ -1,0 +1,2 @@
+=== popcakelegend Config Vars
+CLEARDB_DATABASE_URL: mysql://b081b5259931d1:2818181b@us-cdbr-iron-east-01.cleardb.net/heroku_c0388709ac2c57e?reconnect=true

@@ -1,0 +1,12 @@
+
+Popcake Legend release PopcakeLegende_05-25-2015  (pre-milestone 4 release, v0.0.359)
+
+-locale/translation in bakery screen
+-changes on gameplay of levels 1-10
+-statistics window changed; 
+	(1) resize the window 
+	(2) small marker in between 
+        (3) the color of no trophy is now green
+
+-most in PLComments-feedback 15 may 2015
+   see Feedback on May 15 comment. attached in email.

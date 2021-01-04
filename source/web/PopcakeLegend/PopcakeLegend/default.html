@@ -1,0 +1,193 @@
+﻿<!-- 
+    default.html
+    Main web page (non dynamic)
+    Date Started: October 15, 2014
+    Author: Ruell Magpayo<ruellm@yahoo.com>
+ -->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Popcake Legend</title>
+
+	<!-- Load fonts -->
+   	<link href="fonts/curlz/curlz___0.css" rel="stylesheet" />
+	<link href="fonts/DJBCHALKITUP/styles.css" rel="stylesheet" />
+	<link href="fonts/Androgyne_TB/fonts.css" rel="stylesheet" />
+
+	<!-- flag to determine we are in debug mode -->
+	<script> var g_DEBUG_MODE = true; </script> 
+	
+	<!-- We are using JQUERY for firefox coordinates -->
+	<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+	 
+    <!-- Global definitions -->
+    <script src="js/common.js"></script>
+    <script src="js/resource.js"></script>
+
+    <!-- Core references -->
+    <script src="js/core/baseObject.js"></script>
+    <script src="js/core/engine.js"></script>
+    <script src="js/core/graphics.js"></script>
+    <script src="js/core/state.js"></script>
+
+      <!-- Utility references -->
+    <script src="js/utility/timer.js"></script>
+    <script src="js/utility/animator.js"></script>
+    <script src="js/utility/point.js"></script>
+    <script src="js/utility/longAudio.js"></script>
+    <script src="js/utility/vector2D.js"></script>
+    <script src="js/utility/rectangle.js"></script>
+    <script src="js/utility/collisionHandler.js"></script>
+    
+    <!-- scene classes reference -->
+    <script src="js/scene/imageObject.js"></script>
+    <script src="js/scene/animatedObject.js"></script>
+    <script src="js/scene/animatedText.js"></script>
+    <script src="js/scene/repeatingImage.js"></script>
+
+    <!-- UI class reference -->
+    <script src="js/ui/uibase.js"></script>
+    <script src="js/ui/uimanager.js"></script>
+    <script src="js/ui/button.js"></script>
+    <script src="js/ui/listBoxBase.js"></script>
+    <script src="js/ui/customListBox.js"></script>
+    <script src="js/ui/textBoxBase.js"></script>
+    <script src="js/ui/customTextBox.js"></script>
+    <script src="js/ui/popupwindow.js"></script>
+    <script src="js/ui/roundButtonText.js"></script>
+    <script src="js/ui/slideWindow.js"></script>
+    <script src="js/ui/radioButton.js"></script>    
+    <script src="js/ui/animatedButton.js"></script>
+    <script src="js/ui/checkBox.js"></script>
+
+    <!-- Game classes -->    
+    <script src="js/game/iconBox.js"></script>
+    <script src="js/game/customImageButton.js"></script>
+    <script src="js/game/level.js"></script>
+    <script src="js/game/glowImage.js"></script>
+    <script src="js/game/star.js"></script>
+    <script src="js/game/objectiveWindow.js"></script>
+    <script src="js/game/purchaseWindow.js"></script>
+    <script src="js/game/popupLivesWindow.js"></script>
+    <script src="js/game/statisticsWindow.js"></script>
+    <script src="js/game/congratsWindow.js"></script>
+    <script src="js/game/levelCompleteWnd.js"></script>
+    <script src="js/game/retryWindow.js"></script>
+    <script src="js/game/levelHandle.js"></script>
+    <script src="js/game/giftsWindow.js"></script>
+    <script src="js/game/unlockWndw.js"></script>
+    <script src="js/game/customizeWindow.js"></script>
+    <script src="js/game/friendsInviteGiftWnd.js"></script>
+    <script src="js/game/cloudManager.js"></script>
+    <script src="js/game/audioBg.js"></script>
+    <script src="js/game/blink_sprite.js"></script>
+    <script src="js/game/customizeWindow.js"></script>
+    <script src="js/game/mailinglistWindow.js"></script>
+    <script src="js/game/tutorialWindow.js"></script>
+	<script src="js/game/bestScoreWindow.js"></script>
+    <script src="js/game/addx.js"></script>
+    <script src="js/game/happyNeutronWindow.js"></script>
+
+    <!-- Game Data -->    
+    <script src="js/data/fb_data.js"></script>    
+    <script src="js/data/fbaccess.js"></script>
+    <script src="js/data/gameData.js"></script>    
+	<script src="js/data/rc4.js"></script>
+    <script src="js/data/ajaxAdapter.js"></script>
+    <script src="js/data/popcake_data.js"></script>
+
+    <!-- the level information -->
+    <script src="js/data/level_data.js"></script>
+    
+    <!-- application states -->   
+    <script src="js/states/popcakeBaseState.js"></script>
+    <script src="js/states/splashState.js"></script>
+    <script src="js/states/mainMenuState.js"></script>
+    <script src="js/states/loadState.js"></script>
+    <script src="js/states/gameState.js"></script>
+    <script src="js/states/generalLevelState.js"></script>
+	<script src="js/states/bakeryStoreState.js"></script>
+	
+     <!-- system entry point -->
+    <script src="js/main.js"></script>
+    <script src="js/default.js"></script>
+
+    <script>
+        // using jQUery to subscribe to event
+        $(window).on('beforeunload', function () {
+            OnGameExit();
+        });
+    </script>
+
+</head>
+
+<body>
+	<script type="text/javascript" src="//cpm1.affiz.net/tracking/ads_video.php" defer async></script>
+    <script type="text/javascript">
+                
+        var GLOBAL_CURRENT_WINDOW = 0;        
+        var AFFIZ_ADS_LOADED = false;
+        var AFFIZ_init = false;
+
+        window.avAsyncInit = function () {
+            AFFIZ_InitAds();
+        };
+
+        function AFFIZ_InitAds()
+        {          
+            if (AFFIZ_init) return;
+
+            AFFIZVIDEO.init({
+                    //site_id: '315f315f32303838_ab3d78d175', 		// 	PBM actual/live
+																	// For testing
+                    site_id: '315f315f32303839_9d50c5381d', 		// 	PBM video available always
+                    //site_id: '315f315f32303930_f712c88c95', 		// 	PBM no video
+					
+                    load_callback: loadAds,
+                    noads_callback: noAds,
+                    complete_callback: completeAds,
+                    close_callback: closeAds,
+                    modal: true,
+                });
+
+            AFFIZ_init = true;
+            console.log("AFFIZ Init called...")
+        }
+
+        function loadAds()
+        {
+            console.log("AFFIZ: Ads available");
+            AFFIZ_ADS_LOADED = true;
+            AFFIZ_init = false;
+        }
+
+        function noAds()
+        {
+            console.log("AFFIZ: no ads");
+            AFFIZ_ADS_LOADED = false;
+            AFFIZ_init = false;
+        }
+
+        function completeAds()
+        {
+            console.log("AFFIZ: complete ads");
+            AFFIZ_ADS_LOADED = false;
+            AFFIZ_InitAds();
+         
+            GLOBAL_CURRENT_WINDOW.ShowAward();
+        }
+        function closeAds()
+        {
+            console.log("AFFIZ: Ads close");
+        }
+
+    </script>
+
+    <div style="width: 100%; text-align:center;">
+        <canvas id="game_canvas" align="center" style="background:#FFFFFF;"> 
+              HTML5 canvas not supported.
+        </canvas> 
+    </div>
+</body>
+</html>

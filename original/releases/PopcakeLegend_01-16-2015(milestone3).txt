@@ -1,0 +1,25 @@
+
+Popcake Legend release 01-16-2015 (milestone 3 release, 281)
+
+The following hostedredmine tickets are included:
+-381425
+-381414
+-381359
+-380860
+-380292
+-380284
+-invite friends functionality with free gifts 380860
+-baker customization
+-383071
+-383068
+-383066
+-381425
+-381345
+
+
+-- Milestone 3 also includes past releases 
+-> Release last Dec 08, 2014 (PopcakeLegend_12-08-2014.txt)
+-> Release last Jan 01, 2015 (PopcakeLegende_01-01-2015.txt)
+
+
+-->Deployment Documents are also updated and included in this release.

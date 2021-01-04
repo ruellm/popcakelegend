@@ -1,0 +1,25 @@
+Popcake Legend release 12-08-2014 (version 0.0.236) 
+
+1. Admin page has been updated for the following
+	Display Gift information
+	Display Daily bonus information
+	Unlock Level price
+2. Daily Spin implementation
+3. Gifts implementation
+4. additional fix for 366390
+5. Levels has now time limit of 5 minutes except for level 9 which has only 4 minutes.
+6. Loose one life when quiting a game (as requested in NewAdditions.docx).
+7. Level unlock implementation in General level screen.
+8. Added arrow on good icon, level 5(chrono order) and monetization highlight. 
+9. Board rotate implementation Task #369840
+10. updated core engine for faster processing.
+11. fix for ##367867
+
+
+Notes:
+1. on gift implementation, as policy of facebook, ONLY FRIENDS WHO ACCEPTED or WHO ARE PLAYING for a game or an app will appear in friends list.
+Other friends needs to be invited to appear in the friends list API.
+see link bellow:
+https://developers.facebook.com/docs/apps/upgrading/
+
+search for " /me/friends returns the user's friends who are also using your app"

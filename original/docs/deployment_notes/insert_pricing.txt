@@ -1,0 +1,5 @@
+insert into price_settings(type,price,count, currency) values (9, 0.65, 30, 1);
+insert into price_settings(type,price,count, currency) values (9, 0.92, 50, 1);
+insert into price_settings(type,price,count, currency) values (9, 1.38, 100, 1);
+insert into price_settings(type,price,count, currency) values (9, 3.69, 300, 1);
+insert into price_settings(type,price,count, currency) values (9, 4.61, 500, 1);

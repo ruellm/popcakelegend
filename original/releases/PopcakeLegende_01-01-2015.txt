@@ -1,0 +1,20 @@
+
+Popcake Legend release 01-01-2015 (pre-milestone 3 release, v0.0.269)
+Milestone 3 is on Jan 9, 2015
+
+1. Task #378793 - Coin Indicator
+2. Task #378788 - Change lives pricing
+3. Bug #375708 - spelling mistake for "Bronze"
+4. Task #375696 - Replace Bakers Image (DOU level complete screen)
+5. Task #375247 - Enlarge Level screen items
+6. Level Complete+failed modification - from arts provided Level-Complete&Failed-Screen.rar
+7. Modifictation for Level 7 & 9
+8. Level access condition modification - Level 4 to Level 5 revised to 60 stars instead of original 80 stars requirement.
+Level 8 to 9, replaced 8 minimum bronze to 2 gold trophy requirement.
+9. Graphic corrections from arts provided correction-graphics.rar
+10. Integrated arts from General-level-Correction-Screen.rar 
+11. Customization Feature.
+
+Note:
+Invite friends button in General level screen was de-activated.
+this is still under-discussion with client.

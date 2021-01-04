@@ -1,0 +1,30 @@
+Notes on facebook features:
+
+1. Invite 5 new facebook friends -- per facebook new policy we need to use the standard facebook window in inviting friends.
+
+what is the plan for this? a custom window or use standard facebook window?
+
+2. [Needed] Purchase extra hits window -- where player can choose the number of extra hits to purchase either 3, 10 or 20 hits
+this will popup after clicking the "Purchase Extra hits" button.
+
+3. [Needed] Purchase extra lives window -- where player can choose the number of extra lives to purchse.
+
+this will popup after clicking the "Purchase Extra Life" button.
+
+4. Pop-ups:
+          a.  Automatic saving pop-up
+          b. 
+
+5. Chocolate coins contest UI? (not facebook related)
+
+6. Sharing with friends, gifts and invitation screen.
+-- with explanation of how they work.
+     a. in general level screen, you can send free gift that means we need a screen to send gift.
+    b. player can recieve the gift, and we need a screen or pop-up that notifies that the player recieved a gift.
+    c. We NEED an arts for the GIFTS too!
+
+7. Leaderboards and General Level screen
+
+8. Baker store screen to purchase chocoloate coins
+
+7. Level progress bar

@@ -1,0 +1,22 @@
+Popcake Legend release 11-20-2014 (version 0.0.110) 
+
+Includes the following:
+1. new arrow with glow
+2. added purchase window when life is 0
+3. coins transaction
+4. timer when life is 0, wait time is 30 minutes
+5. Database and facebook integration
+6. Fix bugs 
+	#356593 
+	#356588
+	#356600
+	#356647
+	#357177
+7. Objective Window before level starts (dummy text only)
+8. Loading percentage --> needs actual arts from artists
+9. Timer Glow
+10. Buttons on main menu
+11. the new level complete screen with save and leaderboards
+12. Chalk font integrated.
+13. Facebook invte and facebook share
+14. DOU game

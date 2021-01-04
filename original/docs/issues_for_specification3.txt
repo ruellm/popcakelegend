@@ -1,0 +1,33 @@
+1. the play button, is it for the main menu screen? if that so then we need the Play DOU image button too.
+
+2. I see the changes in the game for the arts, please provide the arts as specified in the new power point.
+	example: star with glow on the progress bar at top.
+
+3. for level 3 with switch (slide 7), the arrow image is hard and complex to implement. i will not prioritize this for the sake of time and schedule. this will not work in real world.
+in the example it can be done because it is just an example.
+in real world, randowm switche are everywhere, and sometimes switch are done with 3 icons. what will be the chances that in the future we will switch not only 3 icons but more?
+example in levels 11 to 50, there will be a chance that we need to switch 4 or more? that means multiple arrows and a really messy board.
+
+I cannot imagine how to implement this, even using images is difficult as arrow directions will vary, the new release of the game already moved the icons during switch, the user will not be confused. In the interest of time(we have a short time only for production of this game), this will not be prioritized.
+
+4. for Dou version, please give me the Female mascot icon.
+Is it really good to assume player 2 is a girl? hehehe
+
+5. the Yes and No button can be done without graphics, the engine will draw it.
+
+6. Cake House LOOK customization is a LOT of work.
+the amount of work is crazy big for this one, the arts need to be redo for almost everything to change the theme.
+this is a complex feature that not all games in facebook has this for practical reasons.
+This project has only a few weeks/months in development, i dont think this is feasible.
+
+FOr technical reasons this is also bad for the performance and QUALITY of the game.
+     1. In order to support different THEMES, ALL the images are created with more than one version, example icons, UIs, buttons, pop-ups, etc.
+	The amount of time we have to re-work and re-do the arts for another theme is just short. I suggest we spent those time perfecting the game instead, we can add 	animations and other quality eye candy effects instead of doing arts for another theme.
+	Plus, the agreement between me and Rehan is just two months for this game.
+
+     2. Technicality wise, during loading of the game, the images are loaded to be used in the game. Two situation will happen here, 
+The first one, let say if we have a total of 100 image for one theme, if we have two themes, we already have 200 images, that means (a) double loading time for our game which is really bad. (b) Game will consume lots of resources.
+Second, if we LOAD the images after the player click on the switch. The images will load again, thus making the player WAIT again.
+What will happen if we have 3 themes, if we have 100+ images for one theme alone, it will tripple the image count and lower the loading time, which by the way quality wise is realy bad.
+
+     3. Please let the client understand that THIS IS NOT A DESKTOP GAME, but this is a WEB BASED GAME hosted in FACEBOOK, that means, we must have a fast loading and fast performin game since everything is connected and downloaded. THere are less to zero facebook games that support this features for practical reasons.

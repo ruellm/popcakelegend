@@ -1,0 +1,10 @@
+1. where is the bakery store
+2. currently it is using my own version of Popup window during;
+	1. level complete
+        2. game over, when hits, life, time are over
+3. chocolate coins contest.
+4. who will do the music? where are the music?
+5. where is the general levels screen?
+6. leaderboard screen
+7. buttons for sharing, inviting, offering gifts.
+8. Level progress bar

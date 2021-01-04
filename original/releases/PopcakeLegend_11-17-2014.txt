@@ -1,0 +1,22 @@
+Popcake Legend release 11-16-2014 (version 0.0.159) 
+
+1. Home level screen with 10 levels
+	a. Gifts window (no functionality)
+	b. Lives window in home level screen is displayed only when life is 0 and the timer is running.
+	c. Invite friends facebook window
+
+2. fix for bug#358601
+3. fix for #358586
+4. fix for Bug #358617
+5. Admin page - no security(login system) yet, 
+	security will be based on facebook ID credentials for actual users.
+	it will be implemented in the final public release.
+	The admin page can be accessed by anyone as of the moment.
+	Facebook IDs for actual Admin persons are needed for security implementation.
+6. fix for #359104
+7. fix for #359876
+8. New fonts for buttons
+9. fix bug for ##359868, #359717
+   features #359876 
+10. fix for #359104
+
